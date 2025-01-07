@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: inherit;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+
+.form-admission p {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.form-admission {
+  margin: 5rem;
+}
+
+.form-sumbit {
+  display: flex;
+  flex-direction: column;
+}
+
+.submission-form {
+  margin: 5em;
+}
+
+.submission-form label {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.submission-form input {
+  padding: 0.5rem;
+}
+
+.submit-button {
+  margin-top: 2rem;
+  border: none;
+  background-color: #818a91;
+  color: white;
+  cursor: pointer;
+}
+.submit-button:hover {
+  background-color: black;
+  transition: background-color 0.5s ease-in-out;
+}
+.boxes p {
+  font-size: 1.5rem;
+}
+.loc-flex-box {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.phone-flex-box {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.loc-flex-box p {
+  font-size: 1.125rem;
+}
+
+.phone-flex-box p {
+  font-size: 1.125rem;
+}
+.play-home h4 {
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+.boxes {
+  background-color: #112b44;
+}
+.p-heading-d {
+  display: flex;
+}
+.pheading {
+  color: #ffffff91;
+  margin: 3rem;
+}
+
+.play-home {
+  background-color: white;
+  border: 2px solid black;
+  /* width: 30%; */
+  padding: 2.5rem;
+}
+
+.play-home h4 {
+  margin-bottom: 2rem;
+}
+
+.will-flex {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 3rem;
+}
+
+.admission-pro h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #112b44;
+}
+
+.admission-pro li {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-left: 3rem;
+}
+
+.addprocess {
+  padding: 4rem;
+}
+.lasts {
+  margin-bottom: 2rem;
+}
+
+.c1 button {
+  font-size: 1.25rem;
+  background-color: #112b44;
+  color: white;
+  border: none;
+  padding: 0.5rem 2rem;
+  border-radius: 0.2rem;
+}
+.c1 h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.c1 p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+.c1 {
+  background-color: white;
+  padding: 1.2rem;
+}
+.admission-oppor {
+  background-color: #9f1e62;
+}
+
+.now-flex {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 5rem;
+}
+
+.admission-oppor h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+}
+
+.admission-oppor p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
+  margin-top: 1.5rem;
+}
+
+.upper-section {
+  padding: 3rem 5rem;
+}
+
+/* Basic Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.apply-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.apply-btn:hover {
+  background-color: #45a049;
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 50px;
+}
+
+.modal-content {
+  background-color: #ffffff;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+/* Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .modal-content {
+    width: 90%;
+  }
+
+  .apply-btn {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 750px) {
+  .submission-form {
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+  }
+  .form-admission {
+    width: 100%;
+    margin: 0;
+    padding: 2rem;
+    font-size: 4vw;
+    text-align: justify;
+  }
+}
+@media (max-width: 990px) {
+  .will-flex {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .now-flex {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .addprocess {
+    padding: 1rem;
+  }
+  .addprocess h2 {
+    font-size: 8vw;
+  }
+
+  .admission-pro li {
+    font-size: 5vw;
+  }
+  .will-flex {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1rem;
+  }
+
+  .upper-section {
+    padding: 1.5rem;
+  }
+
+  .p-heading-d .pheading {
+    margin: 1rem;
+  }
+
+  .now-flex {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 1rem;
+  }
+}
